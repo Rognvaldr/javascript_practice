@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Array Test</h2>
+
+<script type="text/javascript">
+
+var people = new Array ("Bucky", "Tommy", "Sarah");
+
+document.write (people [2]);
+
+</script>
+
+</body>
+</html>
