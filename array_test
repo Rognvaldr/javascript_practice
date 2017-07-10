@@ -2,13 +2,31 @@
 <html>
 <body>
 
-<h2>Array Test</h2>
+<h2>Creating Arrays</h2>
 
 <script type="text/javascript">
 
 var people = new Array ("Bucky", "Tommy", "Sarah");
 
 document.write (people [2]);
+
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Array Length</h2>
+
+<script type="text/javascript">
+
+var people = new Array ("Bucky", "Tommy", "Sarah");
+
+document.write (people.length);
 
 </script>
 
