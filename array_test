@@ -27,11 +27,11 @@ document.write (people.length);
 <script type="text/javascript">
 
 var men = new Array ("Brian", "Tommy", "Eric");
-var women = new Array ("Kathy, Melissa, Alyson");
+var women = new Array ("Kathy", "Melissa", "Alyson");
 
 var people = women.concat(men);
 
-document.write (people[5]);
+document.write(people[5]);
 
 </script>
 
