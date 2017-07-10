@@ -20,7 +20,7 @@ document.write (people [2]);
 <html>
 <body>
 
-<h2>Array Length</h2>
+<h2>Array Length Property</h2>
 
 <script type="text/javascript">
 
