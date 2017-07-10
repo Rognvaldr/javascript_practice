@@ -12,14 +12,6 @@ document.write (people [2]);
 
 </script>
 
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Array Length Property</h2>
 
 <script type="text/javascript">
@@ -27,6 +19,19 @@ document.write (people [2]);
 var people = new Array ("Bucky", "Tommy", "Sarah");
 
 document.write (people.length);
+
+</script>
+
+<h2>Array concat Property</h2>
+
+<script type="text/javascript">
+
+var men = new Array ("Brian", "Tommy", "Eric");
+var women = new Array ("Kathy, Melissa, Alyson");
+
+var people = women.concat(men);
+
+document.write (people[5]);
 
 </script>
 
